@@ -1,0 +1,22 @@
+{
+  "name": "pets-shop",
+  "version": "1.0.0",
+  "description": "this could be a starting point to develop a pets-shop portal",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/classicalboy/dummy-pets-shop\""
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "classicalboy",
+  "license": "ISC",
+  "dependencies": {
+    "angular-route": "^1.6.7",
+    "mongodb": "^3.0.0-rc0",
+    "body-parser": "latest",
+    "express": "latest",
+    "mongoose": "latest"
+  }
+}

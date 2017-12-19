@@ -1,0 +1,10 @@
+<h1>Hi {{vm.user.name}}</h1>
+<p>Welcome to Pets-shop</p>
+<h3>All available pets are:-</h3>
+
+<select name="petSelect" class="amcatSelect" id="petSelect" required ng-model="vm.selectedPet">
+    <option ng-repeat="value in vm.pets" value="{{value[0]}}" ng-selected="vm.user.pet == {{value[0]}}">
+    {{value[0]}} having cost {{value[1]}}</option>
+                                </select>
+                        </div><p>&nbsp;</p>
+<p><a href="#!/login" class="btn btn-primary">Logout</a></p>
